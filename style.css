@@ -1,0 +1,27 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 15px 24px 15px 24px;
+    gap: 6px;
+    border-radius: 4px;
+}
+
+img{
+  width:60px;
+  height: auto;
+  align-self: flex-end;
+}
+
+h3{
+  color:#4c4e61
+}
+h3+p{
+  color:#697077;
+}
